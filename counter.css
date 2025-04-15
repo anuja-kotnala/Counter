@@ -1,0 +1,29 @@
+#count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#num{
+    display: block;
+    text-align: center;
+    font-size: 180px; 
+    color:#ff789f;  
+}
+
+button{
+    height: 50px;
+    width: 70px;
+    background-color:#c0e0ff;
+    font-family: 'Times New Roman', Times, serif;
+    color:#253a82;
+    border-radius: 10%;
+    border: none;
+    cursor:pointer;
+    transition: background-color 0.25s;
+
+}
+
+button:hover{
+    background-color: #e3fc87;
+}
